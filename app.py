@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from datetime import datetime, timezone
+import os
 
 import gradio as gr
 import pandas as pd
@@ -8,8 +9,30 @@ import plotly.graph_objects as go
 
 from accounts import Account, INITIAL_BALANCE
 from database import read_log
-from trading_floor import lastnames, names, short_model_names
+from seed_loader import get_seed_metadata, maybe_seed_on_startup, seed_from_json
+from ui_config import lastnames, names, short_model_names
 from util import Color, css, js
+
+
+def _env_bool(name: str, default: str = "false") -> bool:
+    return os.getenv(name, default).strip().lower() == "true"
+
+
+DEMO_MODE = _env_bool("DEMO_MODE", "true")
+ENABLE_MANUAL_RUN = _env_bool("ENABLE_MANUAL_RUN", "false")
+MAX_MANUAL_RUNS_PER_TRIGGER = max(1, min(3, int(os.getenv("MAX_MANUAL_RUNS_PER_TRIGGER", "1"))))
+SEED_ON_STARTUP = _env_bool("SEED_ON_STARTUP", "true")
+SEED_STRATEGY = os.getenv("SEED_STRATEGY", "if_empty").strip().lower()
+ENABLE_DEMO_RESET = _env_bool("ENABLE_DEMO_RESET", "false")
+
+SEED_BOOTSTRAP = {"seeded": False, "reason": "not-started"}
+try:
+    if SEED_ON_STARTUP:
+        SEED_BOOTSTRAP = maybe_seed_on_startup()
+except Exception as exc:
+    SEED_BOOTSTRAP = {"seeded": False, "reason": f"seed-error: {exc}"}
+
+SEED_METADATA = get_seed_metadata()
 
 TRANSACTION_COLUMNS = ["Timestamp", "Symbol", "Quantity", "Price", "Rationale"]
 HOLDINGS_COLUMNS = ["Symbol", "Quantity"]
@@ -78,6 +101,17 @@ def _normalize_selection(selection: list[str] | None, valid_names: list[str]) ->
         return []
     valid = set(valid_names)
     return [name for name in valid_names if name in set(selection) and name in valid]
+
+
+def _seed_info_markdown() -> str:
+    status = "seeded" if SEED_BOOTSTRAP.get("seeded") else SEED_BOOTSTRAP.get("reason", "not-seeded")
+    return (
+        "### Demo Snapshot\n"
+        f"- Data source: {SEED_METADATA.get('data_source', 'Runtime DB')}\n"
+        f"- Snapshot (UTC): {SEED_METADATA.get('seed_snapshot_utc', '-')}\n"
+        f"- Seed version: {SEED_METADATA.get('seed_version', '-')}\n"
+        f"- Startup seed status: {status}\n"
+    )
 
 
 class Trader:
@@ -790,6 +824,31 @@ def create_ui():
                     label="Merged Tx Rows",
                 )
                 view_all_logs_control = gr.Checkbox(value=False, label="View all logs")
+            if DEMO_MODE:
+                gr.Markdown(
+                    "Demo mode is enabled. Autonomous scheduler is disabled by default for cost control."
+                )
+                demo_seed_info = gr.Markdown(_seed_info_markdown())
+            if ENABLE_MANUAL_RUN:
+                with gr.Row():
+                    manual_run_count = gr.Dropdown(
+                        choices=[1, 2, 3],
+                        value=min(MAX_MANUAL_RUNS_PER_TRIGGER, 1),
+                        label="Manual agent runs",
+                    )
+                    manual_run_button = gr.Button("Run Agents", variant="primary")
+                    manual_run_status = gr.Markdown("Manual runs are enabled.")
+            else:
+                manual_run_count = None
+                manual_run_button = None
+                manual_run_status = None
+            if ENABLE_DEMO_RESET:
+                with gr.Row():
+                    demo_reset_button = gr.Button("Reset Demo Data", variant="secondary")
+                    demo_reset_status = gr.Markdown("Ready to reset seeded demo data.")
+            else:
+                demo_reset_button = None
+                demo_reset_status = None
             compare_selection_control = gr.CheckboxGroup(
                 choices=controller.trader_names,
                 value=list(controller.trader_names),
@@ -937,6 +996,28 @@ def create_ui():
             next_state = set_view_all_logs(current_state, enabled, controller.trader_names)
             return controller.render_dashboard(next_state, reload_data=False)
 
+        def on_manual_run(count):
+            runs = int(count)
+            runs = max(1, min(MAX_MANUAL_RUNS_PER_TRIGGER, runs))
+            try:
+                from trading_floor import run_n_cycles
+                import asyncio
+
+                asyncio.run(run_n_cycles(runs=runs, run_every_n_minutes=0))
+                return f"Completed {runs} manual run(s). Refreshing dashboard."
+            except Exception as exc:
+                return f"Manual run failed: {exc}"
+
+        def on_demo_reset():
+            try:
+                result = seed_from_json(strategy="always")
+                return (
+                    f"Reset complete. Accounts: {result.get('after_accounts', 0)}, "
+                    f"logs: {result.get('after_logs', 0)}."
+                )
+            except Exception as exc:
+                return f"Reset failed: {exc}"
+
         for card in summary_cards:
             card.select_button.click(
                 fn=lambda current_state, trader_name=card.name: select_from_card(
@@ -999,6 +1080,36 @@ def create_ui():
             show_progress="hidden",
             queue=False,
         )
+        if ENABLE_MANUAL_RUN and manual_run_button and manual_run_status and manual_run_count:
+            manual_run_button.click(
+                fn=on_manual_run,
+                inputs=[manual_run_count],
+                outputs=[manual_run_status],
+                show_progress="full",
+                queue=True,
+            )
+            manual_run_button.click(
+                fn=lambda current_state: controller.render_dashboard(current_state, reload_data=True),
+                inputs=[state],
+                outputs=dashboard_outputs,
+                show_progress="hidden",
+                queue=False,
+            )
+        if ENABLE_DEMO_RESET and demo_reset_button and demo_reset_status:
+            demo_reset_button.click(
+                fn=on_demo_reset,
+                inputs=None,
+                outputs=[demo_reset_status],
+                show_progress="full",
+                queue=True,
+            )
+            demo_reset_button.click(
+                fn=lambda current_state: controller.render_dashboard(current_state, reload_data=True),
+                inputs=[state],
+                outputs=dashboard_outputs,
+                show_progress="hidden",
+                queue=False,
+            )
 
         ui.load(
             fn=render_from_state,
@@ -1031,4 +1142,4 @@ def create_ui():
 
 if __name__ == "__main__":
     ui = create_ui()
-    ui.launch(inbrowser=True)
+    ui.launch()

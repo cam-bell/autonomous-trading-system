@@ -1,0 +1,2304 @@
+{
+  "version": "2026-03-09-demo-v1",
+  "snapshot_utc": "2026-02-23 03:35:33 UTC",
+  "source": "local accounts.db export",
+  "accounts": [
+    {
+      "name": "cathie",
+      "account": {
+        "name": "cathie",
+        "balance": 1001.3998600000009,
+        "strategy": "",
+        "holdings": {
+          "SPY": 5,
+          "QQQ": 3,
+          "NVDA": 10,
+          "VDE": 5,
+          "BWET": 20
+        },
+        "transactions": [
+          {
+            "symbol": "NKE",
+            "quantity": 30,
+            "price": 65.5308,
+            "timestamp": "2026-02-22 13:15:34",
+            "rationale": "Investing in Nike due to the favorable Supreme Court ruling, which may reduce import costs and increase demand for their products."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 40,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 13:15:34",
+            "rationale": "Yeti Holdings is well-positioned to benefit from reduced costs due to the tariff repeal, making it an attractive purchase."
+          },
+          {
+            "symbol": "NKE",
+            "quantity": 30,
+            "price": 65.5308,
+            "timestamp": "2026-02-22 13:15:38",
+            "rationale": "Investing in Nike due to the favorable Supreme Court ruling, which may reduce import costs and increase demand for their products."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 40,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 13:15:38",
+            "rationale": "Yeti Holdings is well-positioned to benefit from reduced costs due to the tariff repeal, making it an attractive purchase."
+          },
+          {
+            "symbol": "NKE",
+            "quantity": 3,
+            "price": 65.5308,
+            "timestamp": "2026-02-22 13:15:40",
+            "rationale": "Starting position in Nike, anticipating demand increase due to tariff repeal."
+          },
+          {
+            "symbol": "NKE",
+            "quantity": 10,
+            "price": 65.5308,
+            "timestamp": "2026-02-22 13:15:45",
+            "rationale": "Initial buy in Nike anticipating tariff repeal benefits."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 20,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 13:15:45",
+            "rationale": "Yeti Holdings is likely to benefit from reduced costs due to tariff repeal, making it an attractive purchase."
+          },
+          {
+            "symbol": "NKE",
+            "quantity": -30,
+            "price": 65.26920000000001,
+            "timestamp": "2026-02-22 14:18:00",
+            "rationale": "Rebalancing position as Nike faces federal scrutiny and to lock in some profits given recent price drop."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -50,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 14:18:00",
+            "rationale": "Taking advantage of YETI's strong performance and growth outlook, rebalancing portfolio with emphasis on future cash flow."
+          },
+          {
+            "symbol": "NKE",
+            "quantity": -30,
+            "price": 65.26920000000001,
+            "timestamp": "2026-02-22 14:18:03",
+            "rationale": "Rebalancing position as Nike faces federal scrutiny and to lock in some profits given recent price drop."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -50,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 14:18:03",
+            "rationale": "Taking advantage of YETI's strong performance and growth outlook, rebalancing portfolio with emphasis on future cash flow."
+          },
+          {
+            "symbol": "NKE",
+            "quantity": -13,
+            "price": 65.26920000000001,
+            "timestamp": "2026-02-22 14:18:10",
+            "rationale": "Closing position in Nike due to potential brand impact from federal investigation."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 10,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 14:18:18",
+            "rationale": "Increasing YETI holdings due to strong financial performance and future growth opportunities."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 10,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 14:18:23",
+            "rationale": "Increasing position in YETI due to strong market performance and future growth."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 10,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 14:18:24",
+            "rationale": "Increasing position in YETI due to strong financial performance and growth outlook."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 10,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 14:18:28",
+            "rationale": "Increasing position in YETI due to strong sales growth and anticipated expansion."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 10,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 14:18:29",
+            "rationale": "Increasing holdings in YETI due to strong market factors and positive cash flow projections."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -10,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 14:18:32",
+            "rationale": "Selling a portion of YETI to capitalize on growth while retaining exposure."
+          },
+          {
+            "symbol": "VT",
+            "quantity": 10,
+            "price": 148.24589999999998,
+            "timestamp": "2026-02-22 15:20:13",
+            "rationale": "Diversifying portfolio with global equities exposure through the Vanguard Total World Stock ETF."
+          },
+          {
+            "symbol": "SPY",
+            "quantity": 5,
+            "price": 690.80886,
+            "timestamp": "2026-02-22 15:20:13",
+            "rationale": "Seeking stable returns and market exposure with the SPDR S&P 500 ETF amid economic fluctuations."
+          },
+          {
+            "symbol": "QQQ",
+            "quantity": 3,
+            "price": 610.02762,
+            "timestamp": "2026-02-22 15:20:17",
+            "rationale": "Leveraging potential tech rebounds while diversifying through the Nasdaq-focused ETF."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 10,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 16:45:08",
+            "rationale": "Increasing YETI position due to strong growth outlook."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": 0,
+            "price": 47.77536,
+            "timestamp": "2026-02-22 16:45:19",
+            "rationale": "No quantity available to buy."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -10,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 16:45:21",
+            "rationale": "Locking in profits from YETI's growth."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": 10,
+            "price": 53.16612,
+            "timestamp": "2026-02-22 20:40:08",
+            "rationale": "Bank of America is undervalued and poised to benefit from lower interest rates."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -10,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 20:40:09",
+            "rationale": "Taking profits from YETI's strong performance and reallocating funds to underpriced growth opportunities."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -10,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 20:40:12",
+            "rationale": "Unlocking cash flow by selling a portion of YETI to reinvest in undervalued financial stocks."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -10,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 20:40:15",
+            "rationale": "Taking profits to reinvest into undervalued stocks."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": -5,
+            "price": 52.953880000000005,
+            "timestamp": "2026-02-22 20:40:15",
+            "rationale": "Reallocating to increase positions in quality growth stocks."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -5,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 21:57:29",
+            "rationale": "Rebalancing position due to slower domestic sales growth and reallocating to maintain balance."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": -3,
+            "price": 52.953880000000005,
+            "timestamp": "2026-02-22 21:57:29",
+            "rationale": "Taking profits and reallocating to strengthen other holdings given recent price performance."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": 3,
+            "price": 53.16612,
+            "timestamp": "2026-02-22 21:57:33",
+            "rationale": "Investing profits from YETI and reallocating funds to strengthen a solid bank position."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": -2,
+            "price": 52.953880000000005,
+            "timestamp": "2026-02-22 21:57:35",
+            "rationale": "Reallocating gains from BAC to maintain balance in the portfolio."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": -2,
+            "price": 52.953880000000005,
+            "timestamp": "2026-02-22 21:57:38",
+            "rationale": "Taking profits to reallocate to other growth opportunities."
+          },
+          {
+            "symbol": "YETI",
+            "quantity": -5,
+            "price": 47.58464,
+            "timestamp": "2026-02-22 21:57:38",
+            "rationale": "Rebalancing due to declining domestic growth while retaining exposure."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": 2,
+            "price": 53.16612,
+            "timestamp": "2026-02-22 21:57:42",
+            "rationale": "Reallocating profits from YETI to enhance exposure in BAC, expected growth."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": 2,
+            "price": 53.16612,
+            "timestamp": "2026-02-22 21:57:45",
+            "rationale": "Increasing exposure to BAC while reallocating from other segments."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": -3,
+            "price": 52.953880000000005,
+            "timestamp": "2026-02-22 21:57:51",
+            "rationale": "Taking profits to reallocate to other growth opportunities."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 5,
+            "price": 190.19964,
+            "timestamp": "2026-02-23 03:34:36 UTC",
+            "rationale": "Investing in NVIDIA to capitalize on the AI boom and strong semiconductor demand."
+          },
+          {
+            "symbol": "VDE",
+            "quantity": 10,
+            "price": 155.0595,
+            "timestamp": "2026-02-23 03:34:37 UTC",
+            "rationale": "Diversifying into energy with Vanguard Energy ETF as it has shown remarkable growth."
+          },
+          {
+            "symbol": "BWET",
+            "quantity": 10,
+            "price": 48.747299999999996,
+            "timestamp": "2026-02-23 03:34:37 UTC",
+            "rationale": "Investing in Breakwave Tanker Shipping ETF due to its strong early performance this year."
+          },
+          {
+            "symbol": "VDE",
+            "quantity": -5,
+            "price": 154.4405,
+            "timestamp": "2026-02-23 03:34:40 UTC",
+            "rationale": "Selling a portion of VDE to free up funds for investments in other high-potential stocks."
+          },
+          {
+            "symbol": "BAC",
+            "quantity": -2,
+            "price": 52.953880000000005,
+            "timestamp": "2026-02-23 03:34:47 UTC",
+            "rationale": "Taking profits in BAC to enhance allocation into growth sectors."
+          },
+          {
+            "symbol": "VT",
+            "quantity": -5,
+            "price": 147.6541,
+            "timestamp": "2026-02-23 03:34:55 UTC",
+            "rationale": "Selling a portion of VT to free up funds for targeted ETF investments."
+          },
+          {
+            "symbol": "VT",
+            "quantity": -5,
+            "price": 147.6541,
+            "timestamp": "2026-02-23 03:35:01 UTC",
+            "rationale": "Selling a portion of VT to free up funds for targeted ETF investments."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 5,
+            "price": 190.19964,
+            "timestamp": "2026-02-23 03:35:06 UTC",
+            "rationale": "Investing in NVIDIA to capitalize on the AI boom and strong semiconductor demand."
+          },
+          {
+            "symbol": "BWET",
+            "quantity": 10,
+            "price": 48.747299999999996,
+            "timestamp": "2026-02-23 03:35:06 UTC",
+            "rationale": "Investing in Breakwave Tanker Shipping ETF due to its strong early performance this year."
+          }
+        ],
+        "portfolio_value_time_series": [
+          [
+            "2026-02-22 13:14:57",
+            10000.0
+          ],
+          [
+            "2026-02-22 13:15:34",
+            9996.076000000001
+          ],
+          [
+            "2026-02-22 13:15:34",
+            9992.2616
+          ],
+          [
+            "2026-02-22 13:15:38",
+            9988.3376
+          ],
+          [
+            "2026-02-22 13:15:38",
+            9984.5232
+          ],
+          [
+            "2026-02-22 13:15:40",
+            9984.1308
+          ],
+          [
+            "2026-02-22 13:15:45",
+            9982.8228
+          ],
+          [
+            "2026-02-22 13:15:45",
+            9980.9156
+          ],
+          [
+            "2026-02-22 14:17:25",
+            9980.9156
+          ],
+          [
+            "2026-02-22 14:18:00",
+            9976.991600000001
+          ],
+          [
+            "2026-02-22 14:18:00",
+            9972.223600000001
+          ],
+          [
+            "2026-02-22 14:18:03",
+            9968.299600000002
+          ],
+          [
+            "2026-02-22 14:18:03",
+            9963.531600000002
+          ],
+          [
+            "2026-02-22 14:18:10",
+            9961.8312
+          ],
+          [
+            "2026-02-22 14:18:18",
+            9960.8776
+          ],
+          [
+            "2026-02-22 14:18:23",
+            9959.924
+          ],
+          [
+            "2026-02-22 14:18:24",
+            9958.9704
+          ],
+          [
+            "2026-02-22 14:18:28",
+            9958.016800000001
+          ],
+          [
+            "2026-02-22 14:18:29",
+            9957.0632
+          ],
+          [
+            "2026-02-22 14:18:32",
+            9956.109600000002
+          ],
+          [
+            "2026-02-22 15:19:28",
+            9956.109600000002
+          ],
+          [
+            "2026-02-22 15:20:13",
+            9953.1506
+          ],
+          [
+            "2026-02-22 15:20:13",
+            9946.256300000001
+          ],
+          [
+            "2026-02-22 15:20:17",
+            9942.60344
+          ],
+          [
+            "2026-02-22 16:44:49",
+            9942.60344
+          ],
+          [
+            "2026-02-22 16:45:08",
+            9941.64984
+          ],
+          [
+            "2026-02-22 16:45:19",
+            9941.64984
+          ],
+          [
+            "2026-02-22 16:45:21",
+            9940.696240000001
+          ],
+          [
+            "2026-02-22 20:39:36",
+            9940.696240000001
+          ],
+          [
+            "2026-02-22 20:40:08",
+            9939.635040000001
+          ],
+          [
+            "2026-02-22 20:40:09",
+            9938.68144
+          ],
+          [
+            "2026-02-22 20:40:12",
+            9937.727840000001
+          ],
+          [
+            "2026-02-22 20:40:15",
+            9936.77424
+          ],
+          [
+            "2026-02-22 20:40:15",
+            9936.24364
+          ],
+          [
+            "2026-02-22 21:56:30",
+            9936.24364
+          ],
+          [
+            "2026-02-22 21:57:29",
+            9935.76684
+          ],
+          [
+            "2026-02-22 21:57:29",
+            9935.448480000001
+          ],
+          [
+            "2026-02-22 21:57:33",
+            9935.13012
+          ],
+          [
+            "2026-02-22 21:57:35",
+            9934.91788
+          ],
+          [
+            "2026-02-22 21:57:38",
+            9934.70564
+          ],
+          [
+            "2026-02-22 21:57:38",
+            9934.22884
+          ],
+          [
+            "2026-02-22 21:57:42",
+            9934.0166
+          ],
+          [
+            "2026-02-22 21:57:45",
+            9933.80436
+          ],
+          [
+            "2026-02-22 21:57:51",
+            9933.486
+          ],
+          [
+            "2026-02-23 03:34:07 UTC",
+            9933.486
+          ],
+          [
+            "2026-02-23 03:34:36 UTC",
+            9931.587800000001
+          ],
+          [
+            "2026-02-23 03:34:37 UTC",
+            9928.4928
+          ],
+          [
+            "2026-02-23 03:34:37 UTC",
+            9927.5198
+          ],
+          [
+            "2026-02-23 03:34:40 UTC",
+            9925.9723
+          ],
+          [
+            "2026-02-23 03:34:47 UTC",
+            9925.76006
+          ],
+          [
+            "2026-02-23 03:34:55 UTC",
+            9924.280560000001
+          ],
+          [
+            "2026-02-23 03:35:01 UTC",
+            9922.801060000002
+          ],
+          [
+            "2026-02-23 03:35:06 UTC",
+            9920.902860000002
+          ],
+          [
+            "2026-02-23 03:35:06 UTC",
+            9919.92986
+          ]
+        ]
+      }
+    },
+    {
+      "name": "george",
+      "account": {
+        "name": "george",
+        "balance": 1868.520179999997,
+        "strategy": "",
+        "holdings": {
+          "SMH": 2,
+          "NEE": 15,
+          "ON": 10,
+          "QCOM": 5,
+          "TSM": 5,
+          "MU": 5,
+          "APH": 3
+        },
+        "transactions": [
+          {
+            "symbol": "NVDA",
+            "quantity": 10,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 13:16:13",
+            "rationale": "Investing in Nvidia due to its leadership in AI and semiconductor growth."
+          },
+          {
+            "symbol": "AVGO",
+            "quantity": 5,
+            "price": 333.3153,
+            "timestamp": "2026-02-22 13:16:13",
+            "rationale": "Broadcom's strong position in semiconductor solutions makes it a solid investment."
+          },
+          {
+            "symbol": "TAN",
+            "quantity": 20,
+            "price": 59.889540000000004,
+            "timestamp": "2026-02-22 13:16:13",
+            "rationale": "Exposure to the renewable energy sector through Invesco Solar ETF, which is growing significantly."
+          },
+          {
+            "symbol": "ICLN",
+            "quantity": 30,
+            "price": 18.94782,
+            "timestamp": "2026-02-22 13:16:13",
+            "rationale": "Broad exposure to global clean energy companies aligns with long-term sustainability goals."
+          },
+          {
+            "symbol": "ICLN",
+            "quantity": 30,
+            "price": 18.94782,
+            "timestamp": "2026-02-22 13:16:19",
+            "rationale": "Broad exposure to global clean energy companies aligns with long-term sustainability goals."
+          },
+          {
+            "symbol": "AVGO",
+            "quantity": 5,
+            "price": 333.3153,
+            "timestamp": "2026-02-22 13:16:19",
+            "rationale": "Broadcom's strong position in the semiconductor industry makes it a solid investment."
+          },
+          {
+            "symbol": "TAN",
+            "quantity": 20,
+            "price": 59.889540000000004,
+            "timestamp": "2026-02-22 13:16:19",
+            "rationale": "Exposure to the renewable energy sector through Invesco Solar ETF, which is experiencing significant growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 5,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 13:16:30",
+            "rationale": "Investing in Nvidia due to its leadership in AI and anticipated semiconductor sales growth."
+          },
+          {
+            "symbol": "TAN",
+            "quantity": 3,
+            "price": 59.889540000000004,
+            "timestamp": "2026-02-22 13:16:51",
+            "rationale": "Gaining exposure to the renewable energy sector through Invesco Solar ETF."
+          },
+          {
+            "symbol": "ICLN",
+            "quantity": 5,
+            "price": 18.94782,
+            "timestamp": "2026-02-22 13:16:51",
+            "rationale": "Broad exposure to clean energy companies aligns with sustainability goals."
+          },
+          {
+            "symbol": "TAN",
+            "quantity": -20,
+            "price": 59.65046,
+            "timestamp": "2026-02-22 14:17:56",
+            "rationale": "Rebalancing the portfolio due to recent price increase; maintaining core holdings."
+          },
+          {
+            "symbol": "TAN",
+            "quantity": -20,
+            "price": 59.65046,
+            "timestamp": "2026-02-22 14:17:58",
+            "rationale": "Rebalancing the portfolio due to recent price increase, while maintaining core holdings."
+          },
+          {
+            "symbol": "ICLN",
+            "quantity": -30,
+            "price": 18.87218,
+            "timestamp": "2026-02-22 14:17:59",
+            "rationale": "Rebalancing the portfolio due to price fluctuations and positive market outlook."
+          },
+          {
+            "symbol": "ICLN",
+            "quantity": -30,
+            "price": 18.87218,
+            "timestamp": "2026-02-22 14:18:02",
+            "rationale": "Rebalancing the portfolio to reduce excess exposure due to recent price fluctuations."
+          },
+          {
+            "symbol": "TAN",
+            "quantity": -3,
+            "price": 59.65046,
+            "timestamp": "2026-02-22 14:18:04",
+            "rationale": "Rebalancing the portfolio to take profits due to recent price increase while keeping core positions intact."
+          },
+          {
+            "symbol": "ICLN",
+            "quantity": -5,
+            "price": 18.87218,
+            "timestamp": "2026-02-22 14:18:09",
+            "rationale": "Reducing exposure given recent price fluctuations; reallocating towards stronger outlooks."
+          },
+          {
+            "symbol": "MU",
+            "quantity": 5,
+            "price": 429.02634,
+            "timestamp": "2026-02-22 15:20:11",
+            "rationale": "Investing in Micron Technology for its strong position in memory chips critical for AI applications."
+          },
+          {
+            "symbol": "SMH",
+            "quantity": 3,
+            "price": 415.86006,
+            "timestamp": "2026-02-22 15:20:11",
+            "rationale": "Gaining diversified exposure to the semiconductor sector through VanEck Semiconductor ETF."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -5,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 15:20:18",
+            "rationale": "Selling Micron Technology to realize profits after significant gains."
+          },
+          {
+            "symbol": "AVGO",
+            "quantity": -5,
+            "price": 331.9847,
+            "timestamp": "2026-02-22 15:20:18",
+            "rationale": "Selling a portion of Broadcom to optimize portfolio allocation."
+          },
+          {
+            "symbol": "NEE",
+            "quantity": 10,
+            "price": 92.36436,
+            "timestamp": "2026-02-22 15:20:18",
+            "rationale": "Investing in NextEra Energy for its leadership and growth potential in the renewable energy sector."
+          },
+          {
+            "symbol": "NEE",
+            "quantity": 5,
+            "price": 92.36436,
+            "timestamp": "2026-02-22 15:20:20",
+            "rationale": "Investing in NextEra Energy for its leadership and growth potential in the renewable energy sector."
+          },
+          {
+            "symbol": "AVGO",
+            "quantity": -5,
+            "price": 331.9847,
+            "timestamp": "2026-02-22 15:20:23",
+            "rationale": "Optimizing portfolio allocation due to strong past performance."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": -5,
+            "price": 189.44036,
+            "timestamp": "2026-02-22 15:20:23",
+            "rationale": "Realizing profits after significant gains in Nvidia."
+          },
+          {
+            "symbol": "ON",
+            "quantity": 10,
+            "price": 69.24822,
+            "timestamp": "2026-02-22 20:40:14",
+            "rationale": "Investing in ON Semiconductor due to its growth in silicon carbide technology and strong market position."
+          },
+          {
+            "symbol": "QCOM",
+            "quantity": 5,
+            "price": 143.16576,
+            "timestamp": "2026-02-22 20:40:14",
+            "rationale": "Qualcomm's advancement in AI capabilities presents a strong investment opportunity."
+          },
+          {
+            "symbol": "NIO",
+            "quantity": 15,
+            "price": 5.08014,
+            "timestamp": "2026-02-22 20:40:14",
+            "rationale": "Investing in NIO for its electric vehicle offerings and growth potential in the Chinese market."
+          },
+          {
+            "symbol": "NIO",
+            "quantity": -10,
+            "price": 5.0598600000000005,
+            "timestamp": "2026-02-22 21:57:47",
+            "rationale": "Reducing exposure to NIO due to competitive pressures in the EV market."
+          },
+          {
+            "symbol": "NIO",
+            "quantity": -5,
+            "price": 5.0598600000000005,
+            "timestamp": "2026-02-22 21:57:50",
+            "rationale": "Reducing exposure to NIO due to competitive pressures in the EV market."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": -5,
+            "price": 189.44036,
+            "timestamp": "2026-02-22 22:46:47",
+            "rationale": "Realizing profits from NVIDIA due to strong market performance and ensuring rebalancing in portfolio."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": -5,
+            "price": 189.44036,
+            "timestamp": "2026-02-22 22:46:49",
+            "rationale": "Realizing profits and rebalancing portfolio."
+          },
+          {
+            "symbol": "SMH",
+            "quantity": -1,
+            "price": 414.19993999999997,
+            "timestamp": "2026-02-22 22:46:51",
+            "rationale": "Realizing profits and rebalancing allocation in the semiconductor sector."
+          },
+          {
+            "symbol": "TSM",
+            "quantity": 5,
+            "price": 371.28108000000003,
+            "timestamp": "2026-02-23 03:34:37 UTC",
+            "rationale": "Investing in TSMC to capitalize on the growing semiconductor demand and industry leadership."
+          },
+          {
+            "symbol": "MU",
+            "quantity": 5,
+            "price": 429.02634,
+            "timestamp": "2026-02-23 03:34:37 UTC",
+            "rationale": "Micron Technology's strong position in memory chips critical for AI applications remains promising."
+          },
+          {
+            "symbol": "APH",
+            "quantity": 3,
+            "price": 151.34207999999998,
+            "timestamp": "2026-02-23 03:34:37 UTC",
+            "rationale": "Amphenol Corporation's growth in connector technology for renewable energy applications is attractive."
+          }
+        ],
+        "portfolio_value_time_series": [
+          [
+            "2026-02-22 13:14:57",
+            10000.0
+          ],
+          [
+            "2026-02-22 13:16:13",
+            9996.2036
+          ],
+          [
+            "2026-02-22 13:16:13",
+            9992.8771
+          ],
+          [
+            "2026-02-22 13:16:13",
+            9990.486299999999
+          ],
+          [
+            "2026-02-22 13:16:13",
+            9989.351699999997
+          ],
+          [
+            "2026-02-22 13:16:19",
+            9988.2171
+          ],
+          [
+            "2026-02-22 13:16:19",
+            9984.890599999999
+          ],
+          [
+            "2026-02-22 13:16:19",
+            9982.4998
+          ],
+          [
+            "2026-02-22 13:16:30",
+            9980.6016
+          ],
+          [
+            "2026-02-22 13:16:51",
+            9980.242979999999
+          ],
+          [
+            "2026-02-22 13:16:51",
+            9980.05388
+          ],
+          [
+            "2026-02-22 14:17:25",
+            9980.05388
+          ],
+          [
+            "2026-02-22 14:17:56",
+            9977.663079999998
+          ],
+          [
+            "2026-02-22 14:17:58",
+            9975.272279999997
+          ],
+          [
+            "2026-02-22 14:17:59",
+            9974.137679999998
+          ],
+          [
+            "2026-02-22 14:18:02",
+            9973.003079999997
+          ],
+          [
+            "2026-02-22 14:18:04",
+            9972.644459999998
+          ],
+          [
+            "2026-02-22 14:18:09",
+            9972.455359999998
+          ],
+          [
+            "2026-02-22 15:19:28",
+            9972.455359999998
+          ],
+          [
+            "2026-02-22 15:20:11",
+            9968.173659999999
+          ],
+          [
+            "2026-02-22 15:20:11",
+            9965.68348
+          ],
+          [
+            "2026-02-22 15:20:18",
+            9961.401779999998
+          ],
+          [
+            "2026-02-22 15:20:18",
+            9958.07528
+          ],
+          [
+            "2026-02-22 15:20:18",
+            9956.231679999997
+          ],
+          [
+            "2026-02-22 15:20:20",
+            9955.309879999999
+          ],
+          [
+            "2026-02-22 15:20:23",
+            9951.983379999998
+          ],
+          [
+            "2026-02-22 15:20:23",
+            9950.085179999998
+          ],
+          [
+            "2026-02-22 16:44:49",
+            9950.085179999998
+          ],
+          [
+            "2026-02-22 20:39:37",
+            9950.085179999998
+          ],
+          [
+            "2026-02-22 20:40:14",
+            9948.702979999998
+          ],
+          [
+            "2026-02-22 20:40:14",
+            9947.274179999997
+          ],
+          [
+            "2026-02-22 20:40:14",
+            9947.122079999997
+          ],
+          [
+            "2026-02-22 21:56:30",
+            9947.122079999997
+          ],
+          [
+            "2026-02-22 21:57:47",
+            9947.020679999998
+          ],
+          [
+            "2026-02-22 21:57:50",
+            9946.969979999998
+          ],
+          [
+            "2026-02-22 22:46:47",
+            9945.071779999998
+          ],
+          [
+            "2026-02-22 22:46:49",
+            9943.173579999997
+          ],
+          [
+            "2026-02-22 22:46:51",
+            9942.343519999997
+          ],
+          [
+            "2026-02-23 03:34:07 UTC",
+            9942.343519999997
+          ],
+          [
+            "2026-02-23 03:34:37 UTC",
+            9938.638119999996
+          ],
+          [
+            "2026-02-23 03:34:37 UTC",
+            9934.356419999996
+          ],
+          [
+            "2026-02-23 03:34:37 UTC",
+            9933.450179999998
+          ]
+        ]
+      }
+    },
+    {
+      "name": "ray",
+      "account": {
+        "name": "ray",
+        "balance": 512.6576200000013,
+        "strategy": "",
+        "holdings": {
+          "CRM": 2,
+          "NVDA": 10,
+          "GOOGL": 4,
+          "MSFT": 6,
+          "AVGO": 5,
+          "TSM": 5
+        },
+        "transactions": [
+          {
+            "symbol": "MU",
+            "quantity": 10,
+            "price": 429.02634,
+            "timestamp": "2026-02-22 13:15:32",
+            "rationale": "Investing in Micron Technology due to its projected growth from the semiconductor market surge."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": 10,
+            "price": 376.13076,
+            "timestamp": "2026-02-22 13:15:32",
+            "rationale": "Investing in Applied Materials as it benefits from the semiconductor sales growth."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": 10,
+            "price": 185.53032,
+            "timestamp": "2026-02-22 13:15:32",
+            "rationale": "Buying Salesforce due to its potential in the AI infrastructure growth."
+          },
+          {
+            "symbol": "KD",
+            "quantity": 5,
+            "price": 12.53502,
+            "timestamp": "2026-02-22 13:16:50",
+            "rationale": "Investing in Kyndryl Holdings for its growth potential after being spun off from IBM."
+          },
+          {
+            "symbol": "KD",
+            "quantity": 1,
+            "price": 12.53502,
+            "timestamp": "2026-02-22 13:17:03",
+            "rationale": "Investing in Kyndryl Holdings for its growth potential after being spun off from IBM."
+          },
+          {
+            "symbol": "HIMX",
+            "quantity": 1,
+            "price": 7.52502,
+            "timestamp": "2026-02-22 13:17:03",
+            "rationale": "Buying Himax Technologies at an affordable price with good dividend yield."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 14:18:24",
+            "rationale": "Reducing exposure due to slower expected growth relative to other holdings."
+          },
+          {
+            "symbol": "HIMX",
+            "quantity": -1,
+            "price": 7.49498,
+            "timestamp": "2026-02-22 14:18:24",
+            "rationale": "Taking profits and reallocating investment as growth outlook is slower compared to others."
+          },
+          {
+            "symbol": "KD",
+            "quantity": 2,
+            "price": 12.53502,
+            "timestamp": "2026-02-22 14:18:25",
+            "rationale": "Increasing exposure to Kyndryl Holdings due to its strategic growth in AI capabilities."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 14:18:28",
+            "rationale": "Reducing exposure due to slower expected growth relative to other holdings."
+          },
+          {
+            "symbol": "KD",
+            "quantity": 2,
+            "price": 12.53502,
+            "timestamp": "2026-02-22 14:18:28",
+            "rationale": "Increasing exposure to Kyndryl Holdings due to its strategic growth in AI capabilities."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 14:18:31",
+            "rationale": "Reducing exposure due to slower expected growth relative to other holdings."
+          },
+          {
+            "symbol": "KD",
+            "quantity": 2,
+            "price": 12.53502,
+            "timestamp": "2026-02-22 14:18:31",
+            "rationale": "Increasing exposure to Kyndryl Holdings due to its strategic growth in AI capabilities."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 15:19:59",
+            "rationale": "Investing in Nvidia for its market leadership in AI chips and projected revenue growth."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 15:20:04",
+            "rationale": "Reducing exposure to Micron Technology to free up cash for new opportunities."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 15:20:04",
+            "rationale": "Taking profits in Applied Materials to reallocate funds towards higher growth prospects."
+          },
+          {
+            "symbol": "KD",
+            "quantity": -3,
+            "price": 12.48498,
+            "timestamp": "2026-02-22 15:20:07",
+            "rationale": "Reducing exposure in Kyndryl Holdings to allocate funds for potential high-growth bets in AI and semiconductor sectors."
+          },
+          {
+            "symbol": "KD",
+            "quantity": -2,
+            "price": 12.48498,
+            "timestamp": "2026-02-22 15:20:09",
+            "rationale": "Reducing position in Kyndryl Holdings to reallocate capital towards opportunities in AI and semiconductor sectors."
+          },
+          {
+            "symbol": "KD",
+            "quantity": -3,
+            "price": 12.48498,
+            "timestamp": "2026-02-22 16:45:25",
+            "rationale": "Reducing exposure to Kyndryl Holdings excess holdings against market uncertainty and reallocating funds to strengthen positions in Micron and Nvidia."
+          },
+          {
+            "symbol": "KD",
+            "quantity": -3,
+            "price": 12.48498,
+            "timestamp": "2026-02-22 16:45:27",
+            "rationale": "Reducing exposure to Kyndryl Holdings due to uncertain market prospects, reallocating to stronger positions in Micron and Nvidia."
+          },
+          {
+            "symbol": "KD",
+            "quantity": -1,
+            "price": 12.48498,
+            "timestamp": "2026-02-22 16:45:33",
+            "rationale": "Reducing exposure to Kyndryl Holdings to reallocate funds towards opportunities with stronger growth potential in Micron and Nvidia."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 16:45:35",
+            "rationale": "Balancing positions by reducing exposure to Micron Technology while reallocating towards Nvidia, which has a stronger profit outlook."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 16:45:38",
+            "rationale": "Reducing position in Micron Technology to reallocate capital towards Nvidia, which has a stronger growth potential and favorable market conditions."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 16:45:40",
+            "rationale": "Adjusting holdings in Micron Technology to maintain balance and strengthen exposure to Nvidia based on superior growth prospects."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 16:45:42",
+            "rationale": "Reducing exposure to Applied Materials to reallocate funds towards Nvidia, which shows significant growth potential in the AI sector."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 16:45:43",
+            "rationale": "Reducing position in Applied Materials to strengthen investments in Nvidia in light of stronger future prospects."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 16:45:47",
+            "rationale": "Reducing position in Micron Technology to reallocate funds."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 16:45:47",
+            "rationale": "Reducing position in Applied Materials to strengthen investments in Nvidia."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 16:45:49",
+            "rationale": "Reducing exposure to Micron Technology to reallocate towards Nvidia's growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 2,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 20:40:11",
+            "rationale": "Increasing exposure to Nvidia due to its market leadership in AI chips and strong revenue growth."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": 2,
+            "price": 315.60996,
+            "timestamp": "2026-02-22 20:40:11",
+            "rationale": "Investing in Alphabet for its aggressive investment in AI infrastructure and strong market position."
+          },
+          {
+            "symbol": "MSFT",
+            "quantity": 2,
+            "price": 398.02446000000003,
+            "timestamp": "2026-02-22 20:40:11",
+            "rationale": "Increasing stake in Microsoft due to its strategic partnerships and growth in AI cloud services."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 2,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 20:40:16",
+            "rationale": "Increasing exposure to Nvidia due to its market leadership in AI chips and strong revenue growth."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": 2,
+            "price": 315.60996,
+            "timestamp": "2026-02-22 20:40:16",
+            "rationale": "Investing in Alphabet for its aggressive investment in AI infrastructure and strong market position."
+          },
+          {
+            "symbol": "MSFT",
+            "quantity": 2,
+            "price": 398.02446000000003,
+            "timestamp": "2026-02-22 20:40:16",
+            "rationale": "Increasing stake in Microsoft due to its strategic partnerships and growth in AI cloud services."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": -1,
+            "price": 189.44036,
+            "timestamp": "2026-02-22 20:40:20",
+            "rationale": "Taking profits and reallocating investment due to favorable growth outlook."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": -1,
+            "price": 314.35004000000004,
+            "timestamp": "2026-02-22 20:40:20",
+            "rationale": "Taking profits and reallocating investment due to favorable growth outlook."
+          },
+          {
+            "symbol": "MSFT",
+            "quantity": 2,
+            "price": 398.02446000000003,
+            "timestamp": "2026-02-22 20:40:22",
+            "rationale": "Increasing stake in Microsoft due to its strategic partnerships and growth in AI cloud services."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 20:40:28",
+            "rationale": "Leveraging Nvidia's growth potential in AI chips."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": 1,
+            "price": 315.60996,
+            "timestamp": "2026-02-22 20:40:28",
+            "rationale": "Investing in Alphabet for its strong position in AI."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 21:56:43",
+            "rationale": "Reducing position in Micron to allocate funds towards stronger growth opportunities."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 21:56:43",
+            "rationale": "Taking profits in Applied Materials to strengthen positions in higher growth investments."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 21:56:43",
+            "rationale": "Reducing exposure in Salesforce due to slower expected growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 21:56:43",
+            "rationale": "Increasing exposure to Nvidia based on its strong position in the AI chip market."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 21:56:48",
+            "rationale": "Reducing position in Micron to allocate funds towards stronger growth opportunities."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 21:56:48",
+            "rationale": "Taking profits in Applied Materials to strengthen positions in higher growth investments."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 21:56:48",
+            "rationale": "Reducing exposure in Salesforce due to slower expected growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 21:56:48",
+            "rationale": "Increasing exposure to Nvidia based on its strong position in the AI chip market."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 21:57:26",
+            "rationale": "Reducing position in Micron to allocate funds towards stronger growth opportunities."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 21:57:26",
+            "rationale": "Taking profits in Applied Materials to strengthen positions in higher growth investments."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 21:57:26",
+            "rationale": "Reducing exposure in Salesforce due to slower expected growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 21:57:26",
+            "rationale": "Increasing exposure to Nvidia based on its strong position in the AI chip market."
+          },
+          {
+            "symbol": "MU",
+            "quantity": -1,
+            "price": 427.31366,
+            "timestamp": "2026-02-22 21:57:29",
+            "rationale": "Reducing exposure to Micron Technology for better allocation of capital."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 21:57:30",
+            "rationale": "Taking profits in Applied Materials to strengthen positions in higher growth investments."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 21:57:35",
+            "rationale": "Taking profits in Applied Materials to strengthen positions in higher growth investments."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 21:57:35",
+            "rationale": "Reducing exposure in Salesforce due to slower expected growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 21:57:35",
+            "rationale": "Increasing exposure to Nvidia based on its strong position in the AI chip market."
+          },
+          {
+            "symbol": "AMAT",
+            "quantity": -1,
+            "price": 374.62924,
+            "timestamp": "2026-02-22 21:57:44",
+            "rationale": "Taking profits in Applied Materials to strengthen positions in higher growth investments."
+          },
+          {
+            "symbol": "CRM",
+            "quantity": -1,
+            "price": 184.78968,
+            "timestamp": "2026-02-22 21:57:44",
+            "rationale": "Reducing exposure in Salesforce due to slower expected growth."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 1,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 21:57:44",
+            "rationale": "Increasing exposure to Nvidia based on its strong position in the AI chip market."
+          },
+          {
+            "symbol": "AVGO",
+            "quantity": 5,
+            "price": 333.3153,
+            "timestamp": "2026-02-23 03:34:54 UTC",
+            "rationale": "Investing in Broadcom due to its significant growth in AI semiconductor revenue and overall strong market outlook."
+          },
+          {
+            "symbol": "TSM",
+            "quantity": 5,
+            "price": 371.28108000000003,
+            "timestamp": "2026-02-23 03:34:54 UTC",
+            "rationale": "Investing in Taiwan Semiconductor for its critical role in chip manufacturing and expected revenue growth."
+          }
+        ],
+        "portfolio_value_time_series": [
+          [
+            "2026-02-22 13:14:57",
+            10000.0
+          ],
+          [
+            "2026-02-22 13:15:32",
+            9991.4366
+          ],
+          [
+            "2026-02-22 13:15:32",
+            9983.929
+          ],
+          [
+            "2026-02-22 13:15:32",
+            9980.2258
+          ],
+          [
+            "2026-02-22 13:16:50",
+            9980.100699999999
+          ],
+          [
+            "2026-02-22 13:17:03",
+            9980.07568
+          ],
+          [
+            "2026-02-22 13:17:03",
+            9980.06066
+          ],
+          [
+            "2026-02-22 14:17:25",
+            9980.06066
+          ],
+          [
+            "2026-02-22 14:18:24",
+            9979.69034
+          ],
+          [
+            "2026-02-22 14:18:25",
+            9979.67532
+          ],
+          [
+            "2026-02-22 14:18:25",
+            9979.62528
+          ],
+          [
+            "2026-02-22 14:18:28",
+            9979.254960000002
+          ],
+          [
+            "2026-02-22 14:18:28",
+            9979.20492
+          ],
+          [
+            "2026-02-22 14:18:31",
+            9978.8346
+          ],
+          [
+            "2026-02-22 14:18:31",
+            9978.784560000002
+          ],
+          [
+            "2026-02-22 15:19:28",
+            9978.784560000002
+          ],
+          [
+            "2026-02-22 15:19:59",
+            9978.404919999999
+          ],
+          [
+            "2026-02-22 15:20:04",
+            9977.54858
+          ],
+          [
+            "2026-02-22 15:20:04",
+            9976.797820000002
+          ],
+          [
+            "2026-02-22 15:20:07",
+            9976.72276
+          ],
+          [
+            "2026-02-22 15:20:09",
+            9976.672719999999
+          ],
+          [
+            "2026-02-22 16:44:49",
+            9976.672719999999
+          ],
+          [
+            "2026-02-22 16:45:25",
+            9976.59766
+          ],
+          [
+            "2026-02-22 16:45:27",
+            9976.522599999998
+          ],
+          [
+            "2026-02-22 16:45:33",
+            9976.49758
+          ],
+          [
+            "2026-02-22 16:45:35",
+            9975.64124
+          ],
+          [
+            "2026-02-22 16:45:38",
+            9974.784899999999
+          ],
+          [
+            "2026-02-22 16:45:40",
+            9973.92856
+          ],
+          [
+            "2026-02-22 16:45:42",
+            9973.177799999998
+          ],
+          [
+            "2026-02-22 16:45:43",
+            9972.427039999999
+          ],
+          [
+            "2026-02-22 16:45:47",
+            9971.5707
+          ],
+          [
+            "2026-02-22 16:45:47",
+            9970.819939999998
+          ],
+          [
+            "2026-02-22 16:45:49",
+            9969.9636
+          ],
+          [
+            "2026-02-22 20:39:36",
+            9969.9636
+          ],
+          [
+            "2026-02-22 20:40:11",
+            9969.20432
+          ],
+          [
+            "2026-02-22 20:40:11",
+            9967.9444
+          ],
+          [
+            "2026-02-22 20:40:11",
+            9966.355479999998
+          ],
+          [
+            "2026-02-22 20:40:16",
+            9965.5962
+          ],
+          [
+            "2026-02-22 20:40:16",
+            9964.33628
+          ],
+          [
+            "2026-02-22 20:40:16",
+            9962.74736
+          ],
+          [
+            "2026-02-22 20:40:20",
+            9962.36772
+          ],
+          [
+            "2026-02-22 20:40:20",
+            9961.73776
+          ],
+          [
+            "2026-02-22 20:40:22",
+            9960.148840000002
+          ],
+          [
+            "2026-02-22 20:40:28",
+            9959.769199999999
+          ],
+          [
+            "2026-02-22 20:40:28",
+            9959.13924
+          ],
+          [
+            "2026-02-22 21:56:30",
+            9959.13924
+          ],
+          [
+            "2026-02-22 21:56:43",
+            9958.282900000002
+          ],
+          [
+            "2026-02-22 21:56:43",
+            9957.53214
+          ],
+          [
+            "2026-02-22 21:56:43",
+            9957.161820000001
+          ],
+          [
+            "2026-02-22 21:56:43",
+            9956.782180000002
+          ],
+          [
+            "2026-02-22 21:56:48",
+            9955.92584
+          ],
+          [
+            "2026-02-22 21:56:48",
+            9955.17508
+          ],
+          [
+            "2026-02-22 21:56:48",
+            9954.80476
+          ],
+          [
+            "2026-02-22 21:56:48",
+            9954.42512
+          ],
+          [
+            "2026-02-22 21:57:26",
+            9953.568780000001
+          ],
+          [
+            "2026-02-22 21:57:26",
+            9952.81802
+          ],
+          [
+            "2026-02-22 21:57:26",
+            9952.4477
+          ],
+          [
+            "2026-02-22 21:57:26",
+            9952.068060000001
+          ],
+          [
+            "2026-02-22 21:57:29",
+            9951.21172
+          ],
+          [
+            "2026-02-22 21:57:30",
+            9950.46096
+          ],
+          [
+            "2026-02-22 21:57:35",
+            9949.710200000001
+          ],
+          [
+            "2026-02-22 21:57:35",
+            9949.33988
+          ],
+          [
+            "2026-02-22 21:57:35",
+            9948.960240000002
+          ],
+          [
+            "2026-02-22 21:57:44",
+            9948.209480000001
+          ],
+          [
+            "2026-02-22 21:57:44",
+            9947.839160000001
+          ],
+          [
+            "2026-02-22 21:57:44",
+            9947.45952
+          ],
+          [
+            "2026-02-23 03:34:07 UTC",
+            9947.45952
+          ],
+          [
+            "2026-02-23 03:34:54 UTC",
+            9944.133020000001
+          ],
+          [
+            "2026-02-23 03:34:54 UTC",
+            9940.427620000002
+          ]
+        ]
+      }
+    },
+    {
+      "name": "warren",
+      "account": {
+        "name": "warren",
+        "balance": 165.4505400000009,
+        "strategy": "",
+        "holdings": {
+          "AMZN": 17,
+          "XLK": 15,
+          "GOOGL": 2,
+          "GOOG": 2,
+          "NFLX": 2,
+          "NVDA": 3,
+          "CRWV": 10,
+          "SOUN": 10,
+          "NBIS": 10,
+          "WCLD": 5
+        },
+        "transactions": [
+          {
+            "symbol": "GOOGL",
+            "quantity": 5,
+            "price": 315.60996,
+            "timestamp": "2026-02-22 13:16:10",
+            "rationale": "Investing in Alphabet due to strong growth in AI and cloud services."
+          },
+          {
+            "symbol": "MELI",
+            "quantity": 4,
+            "price": 2000.86374,
+            "timestamp": "2026-02-22 13:16:10",
+            "rationale": "MercadoLibre is a leader in Latin America with consistent revenue growth and e-commerce expansion."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 2,
+            "price": 190.19964,
+            "timestamp": "2026-02-22 13:16:10",
+            "rationale": "Nvidia's position in the AI market presents significant growth opportunities."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": -3,
+            "price": 314.35004000000004,
+            "timestamp": "2026-02-22 14:18:04",
+            "rationale": "Rebalancing portfolio due to declining price and solid gains already realized."
+          },
+          {
+            "symbol": "MELI",
+            "quantity": -1,
+            "price": 1992.8762599999998,
+            "timestamp": "2026-02-22 14:18:04",
+            "rationale": "Sell 1 MELI to balance portfolio; limited news indicates potential volatility."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": -1,
+            "price": 189.44036,
+            "timestamp": "2026-02-22 14:18:04",
+            "rationale": "Reducing NVDA holdings to manage risk given lack of recent significant news updates."
+          },
+          {
+            "symbol": "MELI",
+            "quantity": -1,
+            "price": 1992.8762599999998,
+            "timestamp": "2026-02-22 14:18:09",
+            "rationale": "Sell 1 MELI to balance portfolio; limited news indicates potential volatility."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": -1,
+            "price": 189.44036,
+            "timestamp": "2026-02-22 14:18:09",
+            "rationale": "Reducing NVDA holdings to manage risk given lack of recent significant news updates."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": -2,
+            "price": 314.35004000000004,
+            "timestamp": "2026-02-22 14:18:12",
+            "rationale": "Rebalancing portfolio due to declining price and solid gains already realized."
+          },
+          {
+            "symbol": "MELI",
+            "quantity": -1,
+            "price": 1992.8762599999998,
+            "timestamp": "2026-02-22 14:18:12",
+            "rationale": "Sell 1 MELI to balance portfolio; limited news indicates potential volatility."
+          },
+          {
+            "symbol": "MELI",
+            "quantity": -1,
+            "price": 1992.8762599999998,
+            "timestamp": "2026-02-22 14:18:15",
+            "rationale": "Sell 1 MELI to balance portfolio; limited news indicates potential volatility."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": 3,
+            "price": 210.53022,
+            "timestamp": "2026-02-22 15:20:01",
+            "rationale": "Amazon remains undervalued and has strong growth potential in e-commerce and cloud services."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": 4,
+            "price": 148.37616,
+            "timestamp": "2026-02-22 15:20:01",
+            "rationale": "Oracle's growth in cloud infrastructure and AI investments make it a great buy."
+          },
+          {
+            "symbol": "XLK",
+            "quantity": 5,
+            "price": 141.16176,
+            "timestamp": "2026-02-22 15:20:01",
+            "rationale": "Investing in a tech ETF to gain diversified exposure to leading tech companies, capitalizing on AI growth."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": 3,
+            "price": 210.53022,
+            "timestamp": "2026-02-22 15:20:04",
+            "rationale": "Amazon remains undervalued and has strong growth potential in e-commerce and cloud services."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": 4,
+            "price": 148.37616,
+            "timestamp": "2026-02-22 15:20:04",
+            "rationale": "Oracle's growth in cloud infrastructure and AI investments make it a great buy."
+          },
+          {
+            "symbol": "XLK",
+            "quantity": 5,
+            "price": 141.16176,
+            "timestamp": "2026-02-22 15:20:04",
+            "rationale": "Investing in a tech ETF to gain diversified exposure to leading tech companies, capitalizing on AI growth."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": 3,
+            "price": 210.53022,
+            "timestamp": "2026-02-22 15:20:09",
+            "rationale": "Amazon remains undervalued and has strong growth potential in e-commerce and cloud services."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": 4,
+            "price": 148.37616,
+            "timestamp": "2026-02-22 15:20:09",
+            "rationale": "Oracle's growth in cloud infrastructure and AI investments make it a great buy."
+          },
+          {
+            "symbol": "XLK",
+            "quantity": 5,
+            "price": 141.16176,
+            "timestamp": "2026-02-22 15:20:09",
+            "rationale": "Investing in a tech ETF to gain diversified exposure to leading tech companies, capitalizing on AI growth."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": 3,
+            "price": 210.53022,
+            "timestamp": "2026-02-22 15:20:17",
+            "rationale": "Amazon remains undervalued and has strong growth potential in e-commerce and cloud services."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": -2,
+            "price": 147.78384000000003,
+            "timestamp": "2026-02-22 16:45:46",
+            "rationale": "Reducing exposure to potential market volatility, while maintaining focus on long-term growth in the portfolio."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": -2,
+            "price": 147.78384000000003,
+            "timestamp": "2026-02-22 16:45:48",
+            "rationale": "Reducing exposure to potential volatility while maintaining focus on long-term growth."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": -2,
+            "price": 147.78384000000003,
+            "timestamp": "2026-02-22 16:45:49",
+            "rationale": "Reducing exposure in ORCL to manage portfolio risk given market uncertainty."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": -2,
+            "price": 147.78384000000003,
+            "timestamp": "2026-02-22 16:45:52",
+            "rationale": "Reducing exposure in ORCL to manage portfolio risk given market uncertainty."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": -2,
+            "price": 147.78384000000003,
+            "timestamp": "2026-02-22 16:45:54",
+            "rationale": "Reducing exposure to ORCL due to potential volatility in the tech sector."
+          },
+          {
+            "symbol": "ORCL",
+            "quantity": -2,
+            "price": 147.78384000000003,
+            "timestamp": "2026-02-22 16:45:56",
+            "rationale": "Reducing exposure to ORCL amidst market uncertainties, focusing on portfolio stability."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": 5,
+            "price": 210.53022,
+            "timestamp": "2026-02-22 20:40:29",
+            "rationale": "Investing in Amazon due to its leadership in AI and significant capital expenditure planned for 2026."
+          },
+          {
+            "symbol": "GOOGL",
+            "quantity": 2,
+            "price": 315.60996,
+            "timestamp": "2026-02-22 20:40:29",
+            "rationale": "Capitalizing on Google's partnership with Unilever for AI integration in marketing."
+          },
+          {
+            "symbol": "GOOG",
+            "quantity": 2,
+            "price": 315.52979999999997,
+            "timestamp": "2026-02-22 20:40:29",
+            "rationale": "Supporting Google's expansion in AI and cloud services, given its strategic partnerships."
+          },
+          {
+            "symbol": "NFLX",
+            "quantity": 3,
+            "price": 78.82734,
+            "timestamp": "2026-02-22 20:40:29",
+            "rationale": "Investing in Netflix due to its increasing emphasis on AI in customer experience and content delivery."
+          },
+          {
+            "symbol": "MSFT",
+            "quantity": 3,
+            "price": 398.02446000000003,
+            "timestamp": "2026-02-22 20:40:29",
+            "rationale": "Taking a position in Microsoft as it continues to expand its cloud services and AI technologies."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": 5,
+            "price": 210.53022,
+            "timestamp": "2026-02-22 20:40:33",
+            "rationale": "Investing in Amazon due to its leadership in AI and significant capital expenditure planned for 2026."
+          },
+          {
+            "symbol": "NFLX",
+            "quantity": 3,
+            "price": 78.82734,
+            "timestamp": "2026-02-22 20:40:33",
+            "rationale": "Investing in Netflix due to its increasing emphasis on AI in customer experience and content delivery."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": -3,
+            "price": 209.68978,
+            "timestamp": "2026-02-22 21:57:44",
+            "rationale": "Rebalancing portfolio due to recent price performance and to realize gains."
+          },
+          {
+            "symbol": "NFLX",
+            "quantity": -2,
+            "price": 78.51266,
+            "timestamp": "2026-02-22 21:57:44",
+            "rationale": "Selling some shares to take profits as growth looks uncertain despite content pipeline."
+          },
+          {
+            "symbol": "MSFT",
+            "quantity": -1,
+            "price": 396.43554,
+            "timestamp": "2026-02-22 21:57:44",
+            "rationale": "Reducing position to mitigate risk, given recent strong price performance."
+          },
+          {
+            "symbol": "MSFT",
+            "quantity": -2,
+            "price": 396.43554,
+            "timestamp": "2026-02-22 21:57:51",
+            "rationale": "Reducing position to free up capital and minimize risk."
+          },
+          {
+            "symbol": "NFLX",
+            "quantity": -1,
+            "price": 78.51266,
+            "timestamp": "2026-02-22 21:57:51",
+            "rationale": "Taking profits as growth looks uncertain despite a strong content pipeline."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": -1,
+            "price": 209.68978,
+            "timestamp": "2026-02-22 21:57:51",
+            "rationale": "Selling to realize gains after its recent performance."
+          },
+          {
+            "symbol": "NVDA",
+            "quantity": 3,
+            "price": 190.19964,
+            "timestamp": "2026-02-23 03:35:10 UTC",
+            "rationale": "Nvidia's continued dominance in AI and anticipated strong earnings make it a prime buy."
+          },
+          {
+            "symbol": "CRWV",
+            "quantity": 10,
+            "price": 89.4285,
+            "timestamp": "2026-02-23 03:35:10 UTC",
+            "rationale": "CoreWeave's rapid growth in AI data center services presents significant upside potential."
+          },
+          {
+            "symbol": "SOUN",
+            "quantity": 10,
+            "price": 7.835640000000001,
+            "timestamp": "2026-02-23 03:35:18 UTC",
+            "rationale": "SoundHound AI's potential recovery and value make it an attractive position."
+          },
+          {
+            "symbol": "NBIS",
+            "quantity": 10,
+            "price": 98.11584,
+            "timestamp": "2026-02-23 03:35:18 UTC",
+            "rationale": "Nebius's projected growth in AI-focused cloud services offers significant upside potential."
+          },
+          {
+            "symbol": "AMZN",
+            "quantity": -1,
+            "price": 209.68978,
+            "timestamp": "2026-02-23 03:35:22 UTC",
+            "rationale": "Realizing gains from AMZN due to its strong performance."
+          },
+          {
+            "symbol": "NFLX",
+            "quantity": -1,
+            "price": 78.51266,
+            "timestamp": "2026-02-23 03:35:22 UTC",
+            "rationale": "Taking profits from NFLX as market outlook remains uncertain."
+          },
+          {
+            "symbol": "WCLD",
+            "quantity": 5,
+            "price": 27.33456,
+            "timestamp": "2026-02-23 03:35:25 UTC",
+            "rationale": "Investing in the cloud computing ETF to gain diversified exposure amidst growth in AI."
+          }
+        ],
+        "portfolio_value_time_series": [
+          [
+            "2026-02-22 13:14:57",
+            10000.0
+          ],
+          [
+            "2026-02-22 13:16:10",
+            9996.850199999999
+          ],
+          [
+            "2026-02-22 13:16:10",
+            9980.87524
+          ],
+          [
+            "2026-02-22 13:16:10",
+            9980.11596
+          ],
+          [
+            "2026-02-22 14:17:25",
+            9980.11596
+          ],
+          [
+            "2026-02-22 14:18:04",
+            9978.226079999999
+          ],
+          [
+            "2026-02-22 14:18:04",
+            9974.232339999999
+          ],
+          [
+            "2026-02-22 14:18:04",
+            9973.8527
+          ],
+          [
+            "2026-02-22 14:18:09",
+            9969.858959999998
+          ],
+          [
+            "2026-02-22 14:18:09",
+            9969.479319999999
+          ],
+          [
+            "2026-02-22 14:18:12",
+            9968.219399999998
+          ],
+          [
+            "2026-02-22 14:18:12",
+            9964.225659999998
+          ],
+          [
+            "2026-02-22 14:18:15",
+            9960.231919999998
+          ],
+          [
+            "2026-02-22 15:19:28",
+            9960.231919999998
+          ],
+          [
+            "2026-02-22 15:20:01",
+            9958.971259999998
+          ],
+          [
+            "2026-02-22 15:20:01",
+            9957.786619999999
+          ],
+          [
+            "2026-02-22 15:20:01",
+            9956.37782
+          ],
+          [
+            "2026-02-22 15:20:04",
+            9955.11716
+          ],
+          [
+            "2026-02-22 15:20:04",
+            9953.932519999998
+          ],
+          [
+            "2026-02-22 15:20:04",
+            9952.52372
+          ],
+          [
+            "2026-02-22 15:20:09",
+            9951.26306
+          ],
+          [
+            "2026-02-22 15:20:09",
+            9950.078419999998
+          ],
+          [
+            "2026-02-22 15:20:09",
+            9948.66962
+          ],
+          [
+            "2026-02-22 15:20:17",
+            9947.40896
+          ],
+          [
+            "2026-02-22 16:44:49",
+            9947.40896
+          ],
+          [
+            "2026-02-22 16:45:46",
+            9946.816640000001
+          ],
+          [
+            "2026-02-22 16:45:48",
+            9946.224320000001
+          ],
+          [
+            "2026-02-22 16:45:49",
+            9945.632000000001
+          ],
+          [
+            "2026-02-22 16:45:52",
+            9945.039680000002
+          ],
+          [
+            "2026-02-22 16:45:54",
+            9944.447360000002
+          ],
+          [
+            "2026-02-22 16:45:56",
+            9943.855040000002
+          ],
+          [
+            "2026-02-22 20:39:36",
+            9943.855040000002
+          ],
+          [
+            "2026-02-22 20:40:29",
+            9941.753940000002
+          ],
+          [
+            "2026-02-22 20:40:29",
+            9940.494020000002
+          ],
+          [
+            "2026-02-22 20:40:29",
+            9939.23442
+          ],
+          [
+            "2026-02-22 20:40:29",
+            9938.762400000001
+          ],
+          [
+            "2026-02-22 20:40:29",
+            9936.379020000002
+          ],
+          [
+            "2026-02-22 20:40:33",
+            9934.27792
+          ],
+          [
+            "2026-02-22 20:40:33",
+            9933.805900000001
+          ],
+          [
+            "2026-02-22 21:56:30",
+            9933.805900000001
+          ],
+          [
+            "2026-02-22 21:57:44",
+            9932.545240000001
+          ],
+          [
+            "2026-02-22 21:57:44",
+            9932.230560000002
+          ],
+          [
+            "2026-02-22 21:57:44",
+            9931.436099999999
+          ],
+          [
+            "2026-02-22 21:57:51",
+            9929.84718
+          ],
+          [
+            "2026-02-22 21:57:51",
+            9929.689840000001
+          ],
+          [
+            "2026-02-22 21:57:51",
+            9929.269620000001
+          ],
+          [
+            "2026-02-23 03:34:07 UTC",
+            9929.269620000001
+          ],
+          [
+            "2026-02-23 03:35:10 UTC",
+            9928.130700000002
+          ],
+          [
+            "2026-02-23 03:35:10 UTC",
+            9926.345700000002
+          ],
+          [
+            "2026-02-23 03:35:18 UTC",
+            9926.189300000002
+          ],
+          [
+            "2026-02-23 03:35:18 UTC",
+            9924.230900000002
+          ],
+          [
+            "2026-02-23 03:35:22 UTC",
+            9923.810680000002
+          ],
+          [
+            "2026-02-23 03:35:22 UTC",
+            9923.653340000004
+          ],
+          [
+            "2026-02-23 03:35:25 UTC",
+            9923.380540000004
+          ]
+        ]
+      }
+    }
+  ]
+}

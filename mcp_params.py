@@ -1,11 +1,14 @@
 import os
 from dotenv import load_dotenv
 from market import is_paid_polygon, is_realtime_polygon
+from pathlib import Path
 
 load_dotenv(override=True)
 
 brave_env = {"BRAVE_API_KEY": os.getenv("BRAVE_API_KEY")}
 polygon_api_key = os.getenv("POLYGON_API_KEY")
+BASE_DIR = Path(__file__).resolve().parent
+MEMORY_DIR = BASE_DIR / "memory"
 
 # The MCP server for the Trader to read Market Data
 
@@ -41,6 +44,6 @@ def researcher_mcp_server_params(name: str):
         {
             "command": "npx",
             "args": ["-y", "mcp-memory-libsql"],
-            "env": {"LIBSQL_URL": f"file:./memory/{name}.db"},
+            "env": {"LIBSQL_URL": f"file:{(MEMORY_DIR / f'{name}.db').as_posix()}"},
         },
     ]

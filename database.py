@@ -2,10 +2,12 @@ import sqlite3
 import json
 from datetime import datetime, timezone
 from dotenv import load_dotenv
+from pathlib import Path
 
 load_dotenv(override=True)
 
-DB = "accounts.db"
+BASE_DIR = Path(__file__).resolve().parent
+DB = BASE_DIR / "accounts.db"
 
 
 def utc_timestamp_str() -> str:
